@@ -14,7 +14,7 @@ with col1:
         st.header(row['title'])
         st.write(row['description'])
         st.image("images/" + row['image'])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Veja nosso Projeto]({row['url']})")
 
 
 with col2:
@@ -22,4 +22,4 @@ with col2:
         st.header(row['title'])
         st.write(row['description'])
         st.image("images/" + row['image'])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Veja nosso Projeto]({row['url']})")
